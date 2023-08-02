@@ -24,7 +24,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
-  border-bottom: 1px solid rgba(255, 255, 0, 0.601);
+  border-bottom: 1px solid aquamarine;
   /* z-index를 적용할 때는
   position 이 static이면 안돼요. */
   position: relative;
@@ -34,6 +34,7 @@ header {
 header h1 {
 }
 header h1 a {
+  color: aquamarine;
 }
 
 header #menu {
@@ -42,10 +43,11 @@ header #menu {
 
 header #menu li {
   margin: 0 1rem;
+  justify-content: space-between;
 }
 
 header #menu li a {
-  color: black;
+  color: white;
 }
 
 /* sns */
@@ -58,6 +60,7 @@ header .sns li {
 }
 
 header .sns li a {
+  color: white;
 }
 
 header .sns li a i {
@@ -82,7 +85,9 @@ main article {
   top: 40%;
 }
 main article p {
+  font-weight: 500;
   font-size: 4vw;
+  color: white;
 }
 
 /* footer */
