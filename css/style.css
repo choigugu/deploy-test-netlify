@@ -24,9 +24,9 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
-  border-bottom: 1px solid rgba(255, 255, 0, 0.6);
+  border-bottom: 1px solid rgba(255, 255, 0, 0.601);
   /* z-index를 적용할 때는
-  position 값이 */
+  position 이 static이면 안돼요. */
   position: relative;
   z-index: 100;
 }
